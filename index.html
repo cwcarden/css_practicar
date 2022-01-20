@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <style>
 .bg-gray-900 {
-    background-color:#9DA3AE;
+    background-color:rgb(68, 83, 109);
 }
 body {
     margin: 0;
@@ -14,11 +14,29 @@ body {
 .block {
     display: block;
 }
+
+.inline-block {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
 </style>
 
 
 <header class="bg-gray-900">
-<div>
+<div class="flex justify-between">
     <img src="" alt="" />
     <a href="" class="text-white">Pricing</a>
     <a href="" class="text-white">Courses</a>
@@ -26,8 +44,8 @@ body {
     <a href="" class="text-white">Forum</a>
 </div>
 <div>
-    <a href="">Login</a>
-    <button>Sign Up</button>
+    <a href="" class="text-white flex">Login</a>
+    <button class="flex">Sign Up</button>
 </div>
 </header>
 <body>
